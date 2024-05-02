@@ -1,5 +1,5 @@
-import { Chart, Dinning, Grid, List, Logout, Notifications, Settings, Stockpot } from '../icons';
-import { LinkListItem } from '../shared';
+import { Chart, Dinning, Grid, List, Logout, Notifications, Settings, Stockpot } from '../../icons';
+import { LinkListItem } from './LinkListItem';
 
 export const Navigation = () => {
 

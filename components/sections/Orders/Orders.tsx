@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Order } from '../shared';
+import { Order } from './Order';
 
 import { orders1 } from '@/dummy-data/orders-1';
 import { orders2 } from '@/dummy-data/orders-2';

@@ -1,4 +1,4 @@
-import { Dashboard, Search } from '../icons';
+import { Dashboard, Search } from '../../icons';
 
 export const Header = ({ toggle }: { toggle: () => void }) => {
     return(

@@ -1,6 +1,6 @@
-import { Notifications } from '../icons';
+import { Notifications } from '../../icons';
 import { cart } from '@/dummy-data/cart';
-import { CartItem } from '../shared/CartItem';
+import { CartItem } from './CartItem';
 
 export const Cart = () => {
 

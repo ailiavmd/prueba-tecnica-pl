@@ -1,5 +1,5 @@
-import { Star } from '../icons';
-import { Quantity } from '../shared';
+import { Star } from '../../icons';
+import { Quantity } from './Quantity';
 import { parseNumber } from '@/util';
 
 export const CartItem = ({
