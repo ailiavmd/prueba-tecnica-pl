@@ -1,6 +1,6 @@
 ## Para correr la aplicación
 
-Despues de instalar las dependencias, inicia el servidor de desarrollo con:
+Después de instalar las dependencias, inicia el servidor de desarrollo con:
 
 ```bash
 npm run dev
@@ -32,7 +32,7 @@ Luego visita el link [http://localhost:3000](http://localhost:3000).
 ├── public
 ├── util
 ```
-- **app:** Aqui se encuentran las paginas que seran visibles en la app.
+- **app:** Aquí se encuentran las paginas que serán visibles en la app.
 - **components:** En esta carpeta estoy guardando los componentes que utilizo.
     - **icons:** SVGs de los íconos.
     - **layout:** Componentes que se necesitan para el layout. Por lo general se incluyen una sola vez en la aplicación.
