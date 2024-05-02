@@ -34,9 +34,9 @@ Luego visita el link [http://localhost:3000](http://localhost:3000).
 ```
 - **app:** Aqui se encuentran las paginas que seran visibles en la app.
 - **components:** En esta carpeta estoy guardando los componentes que utilizo.
-- - **icons:** SVGs de los íconos.
-- - **layout:** Componentes que se necesitan para el layout. Por lo general se incluyen una sola vez en la aplicación.
-- - **sections:** Estos son componentes separados segun las secciones del Home.
+    - **icons:** SVGs de los íconos.
+    - **layout:** Componentes que se necesitan para el layout. Por lo general se incluyen una sola vez en la aplicación.
+    - **sections:** Estos son componentes separados segun las secciones del Home.
 - **dummy-data:** Contenido para simular data dinámica.
 - **public:** Aquí estoy guardando las imágenes.
 - **util:** Aquí se guardan las funciones de reusables de utilidad.
