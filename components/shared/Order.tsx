@@ -13,7 +13,7 @@ export const Order = ({ title, date, image }: { title: string, date: string, ima
                 </div>
                 
                 <div className="mt-auto md:ml-auto">
-                    <button className="bg-light-orange rounded-full text-dark md:font-medium px-11 md:px-7 py-3 md:py-4 text-xs md:text-base">
+                    <button className="bg-light-orange rounded-full text-dark md:font-medium px-11 md:px-7 py-3 md:py-4 text-sm md:text-base">
                         Order again
                     </button>
                 </div>
