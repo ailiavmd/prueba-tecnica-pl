@@ -8,26 +8,48 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@media (min-width: 768px) {
+  .app {
+    grid-template-columns: 106px 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:    
+      'nav header'
+      'nav main'
+      'nav side';
+  }
+
+  .app .app-nav {
+    grid-area: nav;
+  }
+
+  .app .app-header {
+    grid-area: header;
+  }
+  
+  .app .app-main {
+    grid-area: main;
+  }
+  
+  .app .app-side {
+    grid-area: side;
+  }
+}
+
+@media (min-width: 1280px) {
+  .app {
+    grid-template-columns: 106px 1fr 359px;
+    grid-template-areas:    
+      'nav header header'
+      'nav main side';
+  }
+}
+
+svg {
+  display: inline-block;
 }
