@@ -1,6 +1,6 @@
 ## Para correr la aplicación
 
-Inicia el servidor de desarrollo con:
+Despues de instalar las dependencias, inicia el servidor de desarrollo con:
 
 ```bash
 npm run dev
